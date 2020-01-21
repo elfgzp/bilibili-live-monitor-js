@@ -1,0 +1,11 @@
+version: "3"
+services:
+  bilibili-live-monitor-js:
+    image: bilibili-live-monitor-js:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8999:8999
+      - 9001:9001

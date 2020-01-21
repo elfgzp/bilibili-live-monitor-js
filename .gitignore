@@ -6,3 +6,4 @@
 **/*.pem
 **/record*
 **/.nfs*
+.idea/
